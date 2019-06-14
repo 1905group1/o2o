@@ -389,7 +389,6 @@
     position: fixed;
     bottom: 0;
     left: 0;
-    /*fixed: bottom;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -397,7 +396,7 @@
 .bottom .b_one{
     width: 0.5rem;
     height: 1.08rem;
-    margin-right:0.7rem ;
+    margin-right:0.6rem ;
     float: left;
 }
 .b_one a{
@@ -413,16 +412,15 @@
     height: 0.5rem;
 }
 .bottom .b_one a p{
-    font-size: 0.2rem;
+    font-size: 0.16rem;
     color: #3bacfe;
     opacity: 0.6;
 }
 
 .bottom .b_two{
-    width: 0.8rem;
-    height: 1.18rem;
-    /*background: #000;*/
-    margin-right:0.5rem ;
+    width: 0.9rem;
+    height: 1.08rem;
+    margin:0.05rem 0.5rem 0 0 ;
     float: left;
     display: flex;
     flex-direction: column;
@@ -435,7 +433,7 @@
 }
 .bottom .b_two > p{
     /*margin-top:0.1rem ;*/
-    font-size: 0.2rem;
+    font-size: 0.16rem;
     color: #2ed977;
     opacity: 0.6;
 

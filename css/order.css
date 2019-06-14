@@ -12,6 +12,7 @@
     width: 100%;
     height: auto;
     padding: 0 0.22rem;
+    box-sizing: border-box;
 }
 .active .item{
     width: 100%;
@@ -30,13 +31,13 @@
 }
 .item b{
     float: right;
-    margin-right: 0.7rem;
+    margin-right: 0.3rem;
 }
 .item>a{
     width: 0.3rem;
     height: 0.3rem;
     float: right;
-    margin-right:0.5rem;
+    margin-right:0.1rem;
 }
 .item::before{
     content: "";
@@ -55,10 +56,10 @@
 }
 
 .itemshop{
-    width: 100%;
     height: 1.9rem;
     margin: 0.5rem;
     padding: 0.1rem;
+    box-sizing: border-box;
 }
 .itemshop .itemimg{
     width: 1.7rem;
@@ -66,7 +67,6 @@
     float: left;
 }
 .itemshop .itemtext{
-    width: 5rem;
     float: left;
     padding: 0 0.3rem;
     margin-left: 0.2rem;
@@ -103,6 +103,7 @@
     width: 100%;
     height: 2.2rem;
     padding: 0 0.22rem;
+    box-sizing: border-box;
     text-align: center;
     line-height: 2.2rem;
 }
@@ -115,6 +116,7 @@
     width: 100%;
     height: 1.6rem;
     padding: 0.22rem;
+    box-sizing: border-box;
     font-size: 0.28rem;
     line-height: 1.6rem;
     display: flex;
@@ -148,6 +150,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
 .payqd >a {
     display: block;
@@ -172,6 +175,7 @@
     width: 100%;
     height: 4.2rem;
     padding: 0 0.22rem;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -199,6 +203,7 @@
 .successa{
     width: 100%;
     height: 1.3rem;
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -215,13 +220,13 @@
     color: #ffffff;
     rgba(55, 223, 116, 0.75);
     border-radius: 0.31rem;
-    margin-right: 0.64rem;
 }
 .successa >a:first-child{
     background-image: linear-gradient(90deg,#37e06f 0%,#31d69a 100%),
     linear-gradient(#3bacfe,#3bacfe);
     background-blend-mode: normal, normal;
     box-shadow: 0 0.04rem 0.2rem 0;
+    margin-right: 0.6rem;
 }
 .successa >a:last-child{
     background-color: rgba(59, 172, 254, 1);
@@ -231,12 +236,12 @@
 
 /*订单全部*/
 .orderlist{
-    width: 100%;
     height: 0.9rem;
     padding: 0 0.22rem;
     font-size: 0.24rem;
     line-height: 0.9rem;
     letter-spacing: 0.01rem;
+    box-sizing: border-box;
     color: rgba(138, 140, 141, 1);
     opacity: 0.4;
     border-bottom: 0.02rem solid rgba(162, 222, 255, 1);
@@ -284,6 +289,7 @@
 .waitpay{
     width: 100%;
     height: 2rem;
+    box-sizing: border-box;
 }
 .waitpay b{
     font-size: 0.24rem;
@@ -303,6 +309,7 @@
     width: 100%;
     height: 1rem;
     padding: 0 0.22rem;
+    box-sizing: border-box;
     line-height: 1rem;
     font-size: 0.24rem;
     letter-spacing: 0.01rem;
@@ -330,6 +337,7 @@
 form{
     width: 100%;
     padding: 0 0.22rem;
+    box-sizing: border-box;
     color: rgba(0, 0, 0, 1);
     opacity: 0.3;
 }
@@ -337,6 +345,7 @@ form{
     width: 100%;
     height: 3.4rem;
     padding: 0 0.22rem;
+    box-sizing: border-box;
 }
 .comment img{
     width: 1.2rem;
@@ -372,6 +381,7 @@ form{
 .comm{
     width: 100%;
     height: 2.6rem;
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
