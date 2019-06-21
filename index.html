@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://at.alicdn.com/t/font_1194326_59plw2qlb5u.css">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
     <title>首页</title>
 </head>
 <body>
@@ -28,9 +29,46 @@
     </div>
 </div>
 
-<div class="banner">
-    <img src="./image/banner.png" alt="加载失败">
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="./image/banner.png" alt="加载失败"></div>
+        <div class="swiper-slide"><img src="./image/qw.jpg" alt="加载失败"></div>
+        <div class="swiper-slide"><img src="./image/canzhuo.jpg" alt="加载失败"></div>
+        <div class="swiper-slide"><img src="./image/shenquan.png" alt="加载失败"></div>
+        <div class="swiper-slide"><img src="./image/a4.jpg" alt="加载失败"></div>
+        <div class="swiper-slide"><img src="./image/a6.jpg" alt="加载失败"></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
 </div>
+
+<!-- Swiper JS -->
+<script src="./js/swiper.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        autoplay: {
+            delay: 2000,
+            disableOnInteraction: false,
+        },
+    });
+</script>
+
 
 <ul class="category">
         <li><a href="list.html">
